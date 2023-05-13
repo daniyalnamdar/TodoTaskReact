@@ -5,6 +5,10 @@
   "homepage": "https://git.heroku.com/daily-task-react.git",
   "type": "module",
   "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "postinstall": "npm run build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
